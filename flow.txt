@@ -1,0 +1,5 @@
+label,fname,name,lname,for
+input - type = text,submit
+form
+class , id
+margin , padding , border

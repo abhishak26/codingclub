@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector */
+        p {
+            color: blue;
+        }
+
+        /* Class Selector */
+        .highlight {
+            background-color: yellow;
+        }
+
+        /* ID Selector */
+        #main {
+            font-size: 18px;
+        }
+
+        /* Attribute Selector */
+        input[type="text"] {
+            border: 1px solid gray;
+        }
+
+        /* Descendant Selector */
+        div p {
+            margin: 10px;
+        }
+
+        /* Child Selector */
+        ul > li {
+            list-style: square;
+        }
+
+        /* Adjacent Sibling Selector */
+        h2 + p {
+            font-weight: bold;
+        }
+
+        /* Pseudo-class Selector */
+        a:hover {
+            color: red;
+        }
+
+        /* Pseudo-element Selector */
+        p::first-line {
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <h2>CSS Selectors Example</h2>
+        <p>This is a paragraph.</p>
+        <p class="highlight">This has a class selector.</p>
+        
+        <input type="text" placeholder="Text input">
+        
+        <ul>
+            <li>List item 1</li>
+            <li>List item 2</li>
+        </ul>
+        
+        <a href="#">Hover over me</a>
+    </div>
+</body>
+</html>

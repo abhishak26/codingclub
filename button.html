@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttton Example</title>
+    <style>
+        .button{
+            background-color: skyblue;
+            padding: 10px;
+            border-radius: 10px;
+            transition: 2s;
+            border: none;
+            cursor: pointer;
+        }
+        .btn1:hover{
+            background-color: blue;
+            border: 1px solid black; 
+        }
+        .btn2:hover{
+            background-color: red;
+            cursor: crosshair;
+        }
+    </style>
+</head>
+<body>
+    <p>The <b>button</b> tag in HTML is used to create a clickable button.
+    It is commonly used inside forms or to trigger JavaScript actions.</p>
+    <br>
+
+    <!--    types of buttons    -->
+    <button type="button">Normal</button>
+    <button type="submit">Submit</button>
+    <button type="reset">Reset</button>
+    <br>
+    <br>
+    <br>
+
+    <!--   button example with classes  -->
+    <button class="button btn1">Click Me!</button>
+    <button class="button btn2">Click Me!</button>
+    <br>
+    <br> 
+
+    <!--    javascript example  -->
+    <button onclick="alert('Button is clicked!')">Click Me!</button>
+    <br><br>
+
+    <!-- inside a form for submit  -->
+    <form>
+    <input type="number">
+    <button type="submit">Submit</button>
+    </form>
+    <br><br>  
+    
+
+    <!-- inside a form for reset -->
+    <form>
+    Name: <input type="text">
+    <button type="reset">Reset</button>
+    </form>
+    
+ 
+</body>
+</html>
